@@ -1,0 +1,14 @@
+[project]
+name="rebuilt-api"
+version="0.1.0"
+dependencies=[
+ "fastapi",
+ "uvicorn[standard]",
+ "sqlalchemy",
+ "aiosqlite",
+ "passlib[argon2]",
+ "python-jose[cryptography]",
+ "pydantic-settings",
+ "python-multipart>=0.0.20",
+ "greenlet>=3.2.4",
+]
